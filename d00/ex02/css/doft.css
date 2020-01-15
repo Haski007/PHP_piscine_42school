@@ -1,0 +1,96 @@
+.main-container {
+	overflow: hidden;
+    background-color: #4e4e4e;
+}
+
+.center-img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Main pannels*/
+
+.headBlock {
+	height: 5em;
+	margin-right: 13%;
+	margin-left: 13%;
+}
+
+.lside, article, .rside, .headBlock {
+	border-radius: 7px;
+	background-color: #919191;
+	box-shadow: 8px 7px 9px 1px #000000;
+}
+
+
+.lside, article, .rside {
+	float: left;
+}
+
+.lside, .rside {
+	height: 19em;
+	width: 6.3em;
+	margin-top: 1em;
+}
+
+article {
+	height: 40%;
+	width: calc(70% - (7.3em * 2));
+	margin-top: 1em;
+	margin-left: 2em;
+	padding: 10px;
+}
+
+.lside {
+	margin-left: 14%;
+}
+
+.rside {
+	margin-left: 2em;
+	padding-left: 3px;
+}
+
+.top-right-panel {
+	width: 11.8em;
+	height: 100%;
+	float: right;
+	/* background: url(../resources/close.gif) right bottom no-repeat; */
+}
+
+/* Pictures */
+
+#loupe, #reload, #cross {
+	float: left;
+}
+
+#loupe {
+	height: 6em;
+}
+
+#reload {
+	height: 1em;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#cross {
+	height: 1em;
+	margin-top: 37px;
+}
+
+#eye {
+	border: 0.25em solid red;
+}
+
+#book {
+	padding-top: 10px;
+	height: 25%;
+}
+
+#towel {
+	height: 20%;
+}
+
+.brick {
+	float: left ;
+}
